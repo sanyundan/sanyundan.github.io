@@ -50,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp在此基础上，品牌广告主还会希望能过识别出每一个cookie的属性（如性别、年龄、收入、职业等），有针对性地对其推送广告素材。<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp目前秒针是可以做到这一点的，做法是在垂直网站中植入一段JS，由秒针管理某些广告位的素材推送。当然，这样的对接需要垂直媒体愿意合作，由于操作过程略麻烦，并且植入JS后会增加媒体作弊的门槛，因此垂直媒体目前仅愿意对大客户开放此功能。<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp同样的情况，视频媒体实现起来相对简单，目前大多数视频媒体都能够接受，并且提供退量接口，也就是可以在媒体推送cookie后选择不购买。此服务溢价15%-25%不等，以实际合作洽谈结果为准。<br/>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3、素材优选
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3、素材优选<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp由于互联网广告是能够实时反馈广告效果的，因此不少广告主希望能够及时看到各个素材的表现，并根据之前的表现来决定接下来要采用什么素材。<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp然而，目前的实际情况是，素材数据反馈有延时，数据从监测公司到代理公司传递有延时，代理公司向客户报告有延时，客户决定更换有延时，素材跟换有延时，新的素材的效果反馈有延时。也就是说，目前素材信息的反馈已经素材更换的动作都是人工的，时效性很差，一个持续一个月的campaign最多也就能完成一到两次素材调整，实际效果较差。<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp要解决这个问题其实有两方面：第一，解决数据传递延时的问题。第二，解决决策下达延迟的问题。<br/>
@@ -68,7 +68,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1、程序反作弊：剔除 同ip、cookie高频曝光点击，单ip多cookie，单coomie多ip，浏览器、网络信息相同但ip、cookie高速变化、短时间内出现异常高分曝光点击。<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2、人工排查：针对具体页面排查是否有不符合逻辑的地方，例如多数点击发生在海外或二三线城市，或者多数点击分布在特定城市。<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3、函数模型排查：可以用历史数据作为训练集，垃圾流量为负样本，正常流量为正样本，线上的各个指标作为变量，用机器学习做出一个模型来筛选垃圾流量。<br/>
-<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp反作弊在广告主心目中的地位不尽相同。对于外企和小企业来说，反作弊是非常重要的，提供高质量的反作弊系统有利于获得广告主的青睐。然而，对于本土企业，特别是国企来说反作弊其实是一件比较微妙的事情，因为本土企业关系链复杂，反作弊会切断某些利益链，所以推进反作弊可能遇到的阻力也较大。<br/>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp不过，我认为反作弊还是势在必行，长期容忍垃圾流量存在混淆视听的话，那任何投放优化都是徒劳的。很多时候千辛万苦优化了10%，媒体随便做弊一下就优化了50%。这样优化和精准投放的价值实际上得不到体现，市场也是劣币驱逐良币。<br/>
 <br/><b>四、数据可视化</b><br/>
